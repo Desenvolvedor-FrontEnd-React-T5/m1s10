@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  gap: 2px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px;
+  border: 1px solid black;
+}
+
+.item {
+  background-color: green;
+  padding: 30px;
+  border: solid 1px black;
+}
+
+.menu-vertical {
+  display: flex;
+  flex-direction: column; /* Organiza os itens do menu verticalmente */
+  list-style: none;
+  background-color: #333;
+  width: 200px; /* Largura fixa para o menu vertical */
+}
+
+.menu-vertical a {
+  text-align: left;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white; /* Separa visualmente os itens do menu */
+}
