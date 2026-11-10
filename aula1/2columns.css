@@ -1,0 +1,34 @@
+.flex-container {
+  display: flex;
+  height: 100vh;
+}
+
+.flex-column {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-column {
+  flex: 1;
+}
+
+.big-column {
+  flex: 2;
+}
+
+.bg-green {
+  background-color: green;
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-blue {
+  background-color: blue;
+  color: white;
+}
