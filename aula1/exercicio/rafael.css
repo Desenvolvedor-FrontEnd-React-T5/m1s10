@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #2b3a42;
+  color: white;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.area-dos-links {
+  display: flex;
+  gap: 30px;
+}
+
+section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.caixa {
+  border: 1px solid #a0aab2;
+  width: 350px;
+  height: 250px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+footer {
+  background-color: #2b3a42;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}

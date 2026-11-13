@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.cabecalho {
+  background-color: blue;
+}
+
+.cabecalho a {
+  color: #000;
+} /* classe + tag */
+
+.cabecalho h1 {
+  color: yellow;
+}
+
+.secao {
+  background-color: yellow;
+  color: purple;
+}
+
+.main {
+  background-color: white;
+  color: red;
+}
+
+#header {
+  color: aquamarine;
+}
+
+#header:hover {
+  text-decoration: line-through;
+}
+
+.cabecalho .link-cabecalho {
+  color: #fff;
+  text-decoration: none;
+} /* 2 classes */
+
+/* a {
+  color: #fff;
+  text-decoration: none;
+} */ /* tag */
+
+.rodape {
+  background-color: green;
+}
