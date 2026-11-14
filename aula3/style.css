@@ -1,0 +1,22 @@
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.course-card {
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+
+@media (min-width: 700px) {
+  .course-card {
+    flex-basis: 45%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .course-card {
+    flex-basis: 30%;
+  }
+}
+
